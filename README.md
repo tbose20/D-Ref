@@ -22,7 +22,7 @@ Please note that we are not allowed to distribute the datasets. As such, please 
 
 
 ## Training and Evaluating the models
-1. The dataset should be prepared in the same format as used by this example dataset [tasks/sst/sst_dataset.csv](). The name of the data file should follow the naming convention of \<name of dataset sub-directory\>\_dataset.csv, e.g. sst/sst_dataset.csv.
+1. The dataset should be prepared in the same format as used by this example dataset [tasks/sst/sst_dataset.csv](https://github.com/tbose20/D-Ref/blob/master/tasks/sst/sst_dataset.csv). The name of the data file should follow the naming convention of \<name of dataset sub-directory\>\_dataset.csv, e.g. sst/sst_dataset.csv.
 
 2. Run the script run_tuning.sh for obtaining the optimal values of the hyper-parameters 'alpha' and 'INP_per' that correspond to the lambda and k, respectively. Please use the validation set performances obtained by running the script for each pair of 'alpha' and 'INP_per' to find the optimal values.
 
