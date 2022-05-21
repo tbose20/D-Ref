@@ -18,7 +18,7 @@ Please note that we are not allowed to distribute the datasets. As such, please 
 
    Dynamic: The dataset used for the experiments in the paper is an older version of the one present [here](https://github.com/bvidgen/Dynamically-Generated-Hate-Speech-Dataset). Since the older version is no longer available, the latest version of the dataset can be downloaded from the link above.
   
-   HatEval  Please fill [this](http://hatespeech.di.unito.it/hateval.html) form to submit a request to the authors.
+   HatEval:  Please fill [this](http://hatespeech.di.unito.it/hateval.html) form to submit a request to the authors.
    
    Waseem: The dataset is available as TweetIDs [here](https://github.com/zeeraktalat/hatespeech) as NAACL_SRW_2016.csv. Note that the dataset used for the experiments may not exactly match the dataset obtained after crawling the TweetIDs as tweets keep getting removed over time.
 
