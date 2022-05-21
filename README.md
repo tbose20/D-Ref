@@ -28,7 +28,10 @@ Please note that we are not allowed to distribute the datasets. As such, please 
 
 2. Run the script run_tuning.sh for obtaining the optimal values of the hyper-parameters 'alpha' and 'INP_per' that correspond to the lambda and k, respectively. Please use the validation set performances obtained by running the script for each pair of 'alpha' and 'INP_per' to find the optimal values.
 
-sh run_tuning.sh > tuning.txt  
+```
+sh run_tuning.sh > tuning.txt 
+
+```
 
 3. You can train and save the models with [train_eval_bc.py]() script with the following options:
 
