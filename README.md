@@ -31,7 +31,7 @@ Please note that we are not allowed to distribute the datasets. As such, please 
 ```
 sh run_tuning.sh > tuning.txt 
 ```
-3. You can train and save the models with [train_eval_bc.py]() script with the following options:
+3. You can train and save the models with [train_eval_bc.py](https://github.com/tbose20/D-Ref/blob/master/train_eval_bc.py) script with the following options:
 
 
 * dataset : *{HatEval, Dynamic, Waseem}* The train sub-part in the dataset file should be the training set from the source corpus, whereas the validation sub-part should be the validation set from the target corpus (which is passed to the 'out-dataset' argument too). For obtaining in-corpus performance, the test subpart of this file can be kept as the test set of the source corpus. 
