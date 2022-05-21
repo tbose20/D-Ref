@@ -33,7 +33,7 @@ sh run_tuning.sh > tuning.txt
 
 * dataset : *{HatEval, Dynamic, Waseem}* The train sub-part in the dataset file should be the training set from the source corpus, whereas the validation sub-part should be the validation set from the target corpus (which is passed to the 'out-dataset' argument too). For obtaining in-corpus performance, the test subpart of this file can be kept as the test set of the source corpus. 
 * out_dataset : *{HatEval, Dynamic, Waseem}* The train, validation and test subparts should belong to the target corpus.
-* encoder : *{bert}* 
+* encoder : *bert* 
 * data_dir : *directory where the datasets are present* 
 * model_dir : *directory for saved models*
 * vanilla: flag to obtain the baseline results for BERT Van-FT. While running D-Ref, do not use this flag.
@@ -42,5 +42,7 @@ Example script
 
 ``` 
 python -u train_eval_bc.py -dataset HatEval -out_dataset  Dynamic -encoder bert -data_dir tasks/ -model_dir models/ -alpha $alpha -perc_inp $INP_per
+
+```
 
 This code is adapted from the repository [here](https://github.com/GChrysostomou/tasc/tree/ed1a421b3cff68e8023d605e384573b07b6c81d6)
