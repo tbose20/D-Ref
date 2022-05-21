@@ -1,0 +1,9 @@
+tasks/*/*.p
+tasks/*/*.csv
+.ipynb_checkpoints
+__pycache__
+*/__pycache__
+*/*/__pycache__
+*/*/*/__pycache__
+.vscode
+
